@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: papayawhip;
+    background-color: #f3e5d8;
 }
 
 img {
@@ -14,32 +14,155 @@ img {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-family: "Young Serif", serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     margin-top: 25px;
     margin-bottom: 10px;
+    color: hsl(24, 5%, 18%);
 }
 
-h2,
-h3, p {
+a,
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bolder;
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bolder;
+    color: hsl(332, 51%, 32%);
+}
+
+p {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    color: hsl(30, 10%, 34%);
+}
+
+li {
+    color: hsl(30, 10%, 34%);
+}
+
+hr {
+    margin: 30px 0;
 }
 
 #main-container {
     background: hsl(0, 0%, 100%);
-    width: 800px;
-    height: 1000px;
+    width: 720px;
+    height: 1700px;
     margin: 0 auto;
     padding: 40px;
     transform: translateY(10vw);
     border-radius: 30px;
 }
 
-#preparation-time {
-    margin: 20px;
+
+/********* THE "1" BODY CONTAINER *********/
+#section-simple-omelette-recipe p {
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+
+/********* THE "2" BODY CONTAINER *********/
+#section-preparation-time {
+    background-color: hsl(330, 100%, 98%);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+#section-preparation-time h3 {
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+#section-preparation-time ul {
+    padding-left: 45px;
+
+}
+
+#section-preparation-time li {
+    padding: 10px;
+}
+
+
+/********* THE "3" BODY CONTAINER *********/
+#section-ingredients h2 {
+    margin-bottom: 10px;
+}
+
+#section-ingredients ul {
+    padding-left: 15px;
+
+}
+
+#section-ingredients li {
+    padding: 10px;
+}
+
+
+/********* THE "4" BODY CONTAINER *********/
+#section-instructions h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#section-instructions ol {
+    padding-left: 15px;
+
+}
+
+#section-instructions li p {
+    padding: 5px;
+    font-weight: lighter;
+}
+
+#section-instructions p strong {
+    color: hsl(0, 2%, 8%);
+}
+
+/********* THE "5" BODY CONTAINER *********/
+#section-nutrition h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#section-nutrition p {
+    font-weight: lighter;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid rgb(54, 54, 54); 
+    padding: 15px;
+}
+
+#table-last-tr td{
+    border: none ;
+}
+
+/* The END */
+.attribution {
+    margin-top: 35px;
+}
+
+a {
+    color: hsl(332, 51%, 32%);
+    font-size: 16px;
 }
