@@ -58,13 +58,27 @@ hr {
 
 #main-container {
     background: hsl(0, 0%, 100%);
-    width: 720px;
-    height: 1700px;
-    margin: 0 auto;
+    max-width: 40%;
+    min-height: 1700px;
+    margin: 20vh auto;
     padding: 40px;
-    transform: translateY(10vw);
     border-radius: 30px;
 }
+
+@media screen and (max-width: 375px) {
+    #main-container {
+        padding: 30px;
+        margin: 0;
+        max-width: none;
+    }
+
+    img {
+        width: 100%;
+        height: auto; 
+    }
+}
+
+
 
 
 /********* THE "1" BODY CONTAINER *********/
@@ -144,7 +158,7 @@ hr {
 }
 
 table {
-    width: 100%; 
+    width: 100%;
     border-collapse: collapse;
 }
 
@@ -153,8 +167,8 @@ td {
     padding: 15px;
 }
 
-#table-last-tr td{
-    border: none ;
+#table-last-tr td {
+    border: none;
 }
 
 /* The END */
