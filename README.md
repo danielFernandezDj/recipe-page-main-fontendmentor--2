@@ -23,8 +23,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [https://github.com/danielFernandezDj/recipe-page-main-fontendmentor--2.git]
-- Live Site URL: [https://danielfernandezdj.github.io/recipe-page-main-fontendmentor--2/]
+- Solution URL: [ https://www.frontendmentor.io/solutions/semantic-html5-markup-css-custom-properties-flexbox-y1ev9O6FnB ]
+- Live Site URL: [ https://danielfernandezdj.github.io/recipe-page-main-fontendmentor--2/ ]
 
 ## My process
 
