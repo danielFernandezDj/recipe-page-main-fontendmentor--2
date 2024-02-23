@@ -23,8 +23,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/danielFernandezDj/recipe-page-main-fontendmentor--2.git)
-- Live Site URL: [Add live site URL here](https://danielfernandezdj.github.io/recipe-page-main-fontendmentor--2/)
+- Solution URL: [https://github.com/danielFernandezDj/recipe-page-main-fontendmentor--2.git]
+- Live Site URL: [https://danielfernandezdj.github.io/recipe-page-main-fontendmentor--2/]
 
 ## My process
 
