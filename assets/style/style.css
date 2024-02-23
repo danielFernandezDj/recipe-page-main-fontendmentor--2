@@ -14,7 +14,7 @@ img {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 40px;
     font-family: "Young Serif", serif;
     font-weight: 600;
     font-style: normal;
@@ -58,28 +58,29 @@ hr {
 
 #main-container {
     background: hsl(0, 0%, 100%);
-    max-width: 40%;
+    max-width: 50%;
     min-height: 1700px;
     margin: 20vh auto;
-    padding: 40px;
+    padding: 20px;
     border-radius: 30px;
 }
 
 @media screen and (max-width: 375px) {
     #main-container {
+        margin-bottom: 0;
         padding: 30px;
-        margin: 0;
         max-width: none;
+        border-radius: 0;
     }
 
     img {
         width: 100%;
-        height: auto; 
+        border-radius: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
     }
 }
-
-
-
 
 /********* THE "1" BODY CONTAINER *********/
 #section-simple-omelette-recipe p {
